@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+      <table class="table table-striped table-bordered table-sm">
+        <tbody>
+          <tr><td>Category/Categoría</td><td>T-Shirts</td></tr>
+        </tbody>
+      </table>
+      <table class="table table-striped table-bordered table-sm">
+        <thead>
+          <tr><th>Code</th><th>Product</th><th>Color</th><th>Size</th><th>Units</th><th>Price</th><th>Discount</th><th>Amount</th><th>Net Amount</th></tr>
+          <tr><th>Código</th><th>Producto</th><th>Color</th><th>Talla</th><th>Unidades</th><th>Precio</th><th>Descuento</th><th>Importe</th><th>Importe Neto</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>000001</td><td>T-Shirt</td><td>Green</td><td>XS</td><td>10</td><td>20.00</td><td>1410.0</td><td>=E4*F4</td><td>=H4*(1-(G4/100))</td></tr>
+          <tr><td>000002</td><td>T-Shirt</td><td>Green</td><td>S</td><td>12</td><td>20.00</td><td>35560.0</td><td>=E5*F5</td><td>=H5*(1-(G5/100))</td></tr>
+          <tr><td>000003</td><td>T-Shirt</td><td>Green</td><td>M</td><td>12</td><td>20.00</td><td>-14568.15</td><td>=E6*F6</td><td>=H6*(1-(G6/100))</td></tr>
+          <tr><td>000004</td><td>T-Shirt</td><td>Green</td><td>L</td><td>14</td><td>20.00</td><td>10.0</td><td>=E7*F7</td><td>=H7*(1-(G7/100))</td></tr>
+          <tr><td>000005</td><td>T-Shirt</td><td>Green</td><td>XL</td><td>11</td><td>20.00</td><td>10.0</td><td>=E8*F8</td><td>=H8*(1-(G8/100))</td></tr>
+          <tr><td>000006</td><td>T-Shirt</td><td>Green</td><td>2XL</td><td>-11</td><td>20.00</td><td>10.0</td><td>=E9*F9</td><td>=H9*(1-(G9/100))</td></tr>
+          <tr><td>100001</td><td>T-Shirt</td><td>Blue</td><td>XS</td><td>10</td><td>20.50</td><td>10.0</td><td>=E10*F10</td><td>=H10*(1-(G10/100))</td></tr>
+          <tr><td>100002</td><td>T-Shirt</td><td>Blue</td><td>S</td><td>12</td><td>20.50</td><td>10.0</td><td>=E11*F11</td><td>=H11*(1-(G11/100))</td></tr>
+          <tr><td>100003</td><td>T-Shirt</td><td>Blue</td><td>M</td><td>12</td><td>20.50</td><td>10.0</td><td>=E12*F12</td><td>=H12*(1-(G12/100))</td></tr>
+          <tr><td>100004</td><td>T-Shirt</td><td>Blue</td><td>L</td><td>14</td><td>20.50</td><td>10.0</td><td>=E13*F13</td><td>=H13*(1-(G13/100))</td></tr>
+          <tr><td>100005</td><td>T-Shirt</td><td>Blue</td><td>XL</td><td>11</td><td>20.50</td><td>10.0</td><td>=E14*F14</td><td>=H14*(1-(G14/100))</td></tr>
+          <tr><td>100006</td><td>T-Shirt</td><td>Blue</td><td>2XL</td><td>-11</td><td>20.50</td><td>10.0</td><td>=E15*F15</td><td>=H15*(1-(G15/100))</td></tr>
+          <tr><td>200001</td><td>T-Shirt</td><td>Red</td><td>XS</td><td>11</td><td>21.00</td><td>10.0</td><td>=E16*F16</td><td>=H16*(1-(G16/100))</td></tr>
+          <tr><td>200002</td><td>T-Shirt</td><td>Red</td><td>S</td><td>13</td><td>21.00</td><td>10.0</td><td>=E17*F17</td><td>=H17*(1-(G17/100))</td></tr>
+          <tr><td>200003</td><td>T-Shirt</td><td>Red</td><td>M</td><td>13</td><td>21.00</td><td>10.0</td><td>=E18*F18</td><td>=H18*(1-(G18/100))</td></tr>
+          <tr><td>200004</td><td>T-Shirt</td><td>Red</td><td>L</td><td>15</td><td>21.00</td><td>10.0</td><td>=E19*F19</td><td>=H19*(1-(G19/100))</td></tr>
+          <tr><td>200005</td><td>T-Shirt</td><td>Red</td><td>XL</td><td>12</td><td>21.00</td><td>10.0</td><td>=E20*F20</td><td>=H20*(1-(G20/100))</td></tr>
+          <tr><td>200006</td><td>T-Shirt</td><td>Red</td><td>2XL</td><td></td><td>21.00</td><td>10.0</td><td>=E21*F21</td><td>=H21*(1-(G21/100))</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th></th><th></th><th></th><th>Total</th><th>=SUM(E4:E21)</th><th></th><th></th><th>=SUM(H4:H21)</th><th>=SUM(I4:I21)</th></tr>
+          <tr><th></th><th></th><th></th><th>Total2</th><th>=AVERAGE(E4:E21)</th><th></th><th></th><th>=MIN(H4:H21)</th><th>=MAX(I4:I21)</th></tr>
+        </tfoot>
+      </table>
+      <table class="table table-striped table-bordered table-sm">
+        <tbody>
+          <tr><td>Category/Categoría</td><td>Trousers</td></tr>
+        </tbody>
+      </table>
+      <table class="table table-striped table-bordered table-sm">
+        <thead>
+          <tr><th>Code</th><th>Product</th><th>Color</th><th>Size</th><th>Units</th><th>Price</th><th>Discount</th><th>Amount</th><th>Net Amount</th></tr>
+          <tr><th>Código</th><th>Producto</th><th>Color</th><th>Talla</th><th>Unidades</th><th>Precio</th><th>Descuento</th><th>Importe</th><th>Importe Neto</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>300001</td><td>Trouser</td><td>Green</td><td>XS</td><td>-5</td><td>30.00</td><td>15.0</td><td>=E28*F28</td><td>=H28*(1-(G28/100))</td></tr>
+          <tr><td>300002</td><td>Trouser</td><td>Green</td><td>S</td><td>12</td><td>30.00</td><td>15.0</td><td>=E29*F29</td><td>=H29*(1-(G29/100))</td></tr>
+          <tr><td>300003</td><td>Trouser</td><td>Green</td><td>M</td><td>12</td><td>30.00</td><td>15.0</td><td>=E30*F30</td><td>=H30*(1-(G30/100))</td></tr>
+          <tr><td>300004</td><td>Trouser</td><td>Green</td><td>L</td><td>14</td><td>30.00</td><td>15.0</td><td>=E31*F31</td><td>=H31*(1-(G31/100))</td></tr>
+          <tr><td>300005</td><td>Trouser</td><td>Green</td><td>XL</td><td>11</td><td>30.00</td><td>15.0</td><td>=E32*F32</td><td>=H32*(1-(G32/100))</td></tr>
+          <tr><td>300006</td><td>Trouser</td><td>Green</td><td>2X</td><td>11</td><td>30.00</td><td>15.0</td><td>=E33*F33</td><td>=H33*(1-(G33/100))</td></tr>
+          <tr><td>400001</td><td>Trouser</td><td>Blue</td><td>XS</td><td>10</td><td>30.50</td><td>15.0</td><td>=E34*F34</td><td>=H34*(1-(G34/100))</td></tr>
+          <tr><td>400002</td><td>Trouser</td><td>Blue</td><td>S</td><td>12</td><td>30.50</td><td>15.0</td><td>=E35*F35</td><td>=H35*(1-(G35/100))</td></tr>
+          <tr><td>400003</td><td>Trouser</td><td>Blue</td><td>M</td><td>12</td><td>30.50</td><td>15.0</td><td>=E36*F36</td><td>=H36*(1-(G36/100))</td></tr>
+          <tr><td>400004</td><td>Trouser</td><td>Blue</td><td>L</td><td>14</td><td>30.50</td><td>15.0</td><td>=E37*F37</td><td>=H37*(1-(G37/100))</td></tr>
+          <tr><td>400005</td><td>Trouser</td><td>Blue</td><td>XL</td><td>-1</td><td>30.50</td><td>15.0</td><td>=E38*F38</td><td>=H38*(1-(G38/100))</td></tr>
+          <tr><td>400006</td><td>Trouser</td><td>Blue</td><td>2XL</td><td>11</td><td>30.50</td><td>15.0</td><td>=E39*F39</td><td>=H39*(1-(G39/100))</td></tr>
+          <tr><td>500001</td><td>Trouser</td><td>Red</td><td>XS</td><td>11</td><td>31.00</td><td>15.0</td><td>=E40*F40</td><td>=H40*(1-(G40/100))</td></tr>
+          <tr><td>500002</td><td>Trouser</td><td>Red</td><td>S</td><td>13</td><td>31.00</td><td>15.0</td><td>=E41*F41</td><td>=H41*(1-(G41/100))</td></tr>
+          <tr><td>500003</td><td>Trouser</td><td>Red</td><td>M</td><td>13</td><td>31.00</td><td>15.0</td><td>=E42*F42</td><td>=H42*(1-(G42/100))</td></tr>
+          <tr><td>500004</td><td>Trouser</td><td>Red</td><td>L</td><td>15</td><td>31.00</td><td>15.0</td><td>=E43*F43</td><td>=H43*(1-(G43/100))</td></tr>
+          <tr><td>500005</td><td>Trouser</td><td>Red</td><td>XL</td><td>12</td><td>31.00</td><td>15.0</td><td>=E44*F44</td><td>=H44*(1-(G44/100))</td></tr>
+          <tr><td>500006</td><td>Trouser</td><td>Red</td><td>2XL</td><td></td><td>31.00</td><td>15.0</td><td>=E45*F45</td><td>=H45*(1-(G45/100))</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th></th><th></th><th></th><th>Total</th><th>=SUM(E28:E45)</th><th></th><th></th><th>=SUM(H28:H45)</th><th>=SUM(I28:I45)</th></tr>
+          <tr><th></th><th></th><th></th><th>Total2</th><th>=AVERAGE(E28:E45)</th><th></th><th></th><th>=MIN(H28:H45)</th><th>=MAX(I28:I45)</th></tr>
+        </tfoot>
+      </table>
+      <table class="table table-striped table-bordered table-sm">
+        <tbody>
+          <tr><td>Category/Categoría</td><td>Dresses</td></tr>
+        </tbody>
+      </table>
+      <table class="table table-striped table-bordered table-sm">
+        <thead>
+          <tr><th>Code</th><th>Product</th><th>Color</th><th>Size</th><th>Units</th><th>Price</th><th>Discount</th><th>Amount</th><th>Net Amount</th></tr>
+          <tr><th>Código</th><th>Producto</th><th>Color</th><th>Talla</th><th>Unidades</th><th>Precio</th><th>Descuento</th><th>Importe</th><th>Importe Neto</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>600001</td><td>Dress</td><td>Green</td><td>XS</td><td></td><td>40.00</td><td>20.5</td><td>=E52*F52</td><td>=H52*(1-(G52/100))</td></tr>
+          <tr><td>600002</td><td>Dress</td><td>Green</td><td>S</td><td>12</td><td>40.00</td><td>20.5</td><td>=E53*F53</td><td>=H53*(1-(G53/100))</td></tr>
+          <tr><td>600003</td><td>Dress</td><td>Green</td><td>M</td><td>12</td><td>40.00</td><td>20.5</td><td>=E54*F54</td><td>=H54*(1-(G54/100))</td></tr>
+          <tr><td>600004</td><td>Dress</td><td>Green</td><td>L</td><td>14</td><td>40.00</td><td>20.5</td><td>=E55*F55</td><td>=H55*(1-(G55/100))</td></tr>
+          <tr><td>600005</td><td>Dress</td><td>Green</td><td>XL</td><td>11</td><td>40.00</td><td>20.5</td><td>=E56*F56</td><td>=H56*(1-(G56/100))</td></tr>
+          <tr><td>600006</td><td>Dress</td><td>Green</td><td>2XL</td><td>11</td><td>40.00</td><td>20.5</td><td>=E57*F57</td><td>=H57*(1-(G57/100))</td></tr>
+          <tr><td>700001</td><td>Dress</td><td>Blue</td><td>XS</td><td>10</td><td>40.50</td><td>20.5</td><td>=E58*F58</td><td>=H58*(1-(G58/100))</td></tr>
+          <tr><td>700002</td><td>Dress</td><td>Blue</td><td>S</td><td>-3</td><td>40.50</td><td>20.5</td><td>=E59*F59</td><td>=H59*(1-(G59/100))</td></tr>
+          <tr><td>700003</td><td>Dress</td><td>Blue</td><td>M</td><td>12</td><td>40.50</td><td>20.5</td><td>=E60*F60</td><td>=H60*(1-(G60/100))</td></tr>
+          <tr><td>700004</td><td>Dress</td><td>Blue</td><td>L</td><td>14</td><td>40.50</td><td>20.5</td><td>=E61*F61</td><td>=H61*(1-(G61/100))</td></tr>
+          <tr><td>700005</td><td>Dress</td><td>Blue</td><td>XL</td><td>11</td><td>40.50</td><td>20.5</td><td>=E62*F62</td><td>=H62*(1-(G62/100))</td></tr>
+          <tr><td>700006</td><td>Dress</td><td>Blue</td><td>2XL</td><td>11</td><td>40.50</td><td>20.5</td><td>=E63*F63</td><td>=H63*(1-(G63/100))</td></tr>
+          <tr><td>800001</td><td>Dress</td><td>Red</td><td>XS</td><td>-1</td><td>41.00</td><td>20.5</td><td>=E64*F64</td><td>=H64*(1-(G64/100))</td></tr>
+          <tr><td>800002</td><td>Dress</td><td>Red</td><td>S</td><td>13</td><td>41.00</td><td>20.5</td><td>=E65*F65</td><td>=H65*(1-(G65/100))</td></tr>
+          <tr><td>800003</td><td>Dress</td><td>Red</td><td>M</td><td>13</td><td>41.00</td><td>20.5</td><td>=E66*F66</td><td>=H66*(1-(G66/100))</td></tr>
+          <tr><td>800004</td><td>Dress</td><td>Red</td><td>L</td><td>15</td><td>41.00</td><td>20.5</td><td>=E67*F67</td><td>=H67*(1-(G67/100))</td></tr>
+          <tr><td>800005</td><td>Dress</td><td>Red</td><td>XL</td><td>12</td><td>41.00</td><td>20.5</td><td>=E68*F68</td><td>=H68*(1-(G68/100))</td></tr>
+          <tr><td>800006</td><td>Dress</td><td>Red</td><td>2XL</td><td></td><td>41.00</td><td>20.5</td><td>=E69*F69</td><td>=H69*(1-(G69/100))</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th></th><th></th><th></th><th>Total</th><th>=SUM(E52:E69)</th><th></th><th></th><th>=SUM(H52:H69)</th><th>=SUM(I52:I69)</th></tr>
+          <tr><th></th><th></th><th></th><th>Total2</th><th>=AVERAGE(E52:E69)</th><th></th><th></th><th>=MIN(H52:H69)</th><th>=MAX(I52:I69)</th></tr>
+        </tfoot>
+      </table>
+    </body>
+</html>

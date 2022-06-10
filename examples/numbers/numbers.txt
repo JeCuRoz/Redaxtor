@@ -1,0 +1,18 @@
+# Samples of allowed numeric types in input files.
+# integer* types are mapped to python integer type in output files.
+# float* types are mapped to python float type in output files.
+# decimal* types are mapped to python Decimal type (from decimal module) in output files.
+# The difference between the similar types is the thousands and decimal separators.
+# No trailing letter means no thousands and decimal separators are used.
+# A single final letter (d or c) means that numeric formats use the thousands separator (d for period and c for comma).
+# A double final letter (d or c) means that numeric formats use thousands and decimal separators (the first letter for thousands and the second letter for decimals).
+# integer       integerd        integerc        floatc          float           floatdc         floatcd         decimalc        decimal         decimaldc       decimalcd
+288101454       288.101.454     288,101,454     2881014,54      2881014.54      2.881.014,54    2,881,014.54    2881014,54      2881014.54      2.881.014,54    2,881,014.54
+481447146       481.447.146     481,447,146     4814471,46      4814471.46      4.814.471,46    4,814,471.46    4814471,46      4814471.46      4.814.471,46    4,814,471.46
+1139261168      1.139.261.168   1,139,261,168   11392611,68     11392611.68     11.392.611,68   11,392,611.68   11392611,68     11392611.68     11.392.611,68   11,392,611.68
+934872705       934.872.705     934,872,705     9348727,05      9348727.05      9.348.727,05    9,348,727.05    9348727,05      9348727.05      9.348.727,05    9,348,727.05
+1219031725      1.219.031.725   1,219,031,725   12190317,25     12190317.25     12.190.317,25   12,190,317.25   12190317,25     12190317.25     12.190.317,25   12,190,317.25
+621616335       621.616.335     621,616,335     6216163,35      6216163.35      6.216.163,35    6,216,163.35    6216163,35      6216163.35      6.216.163,35    6,216,163.35
+825256401       825.256.401     825,256,401     8252564,01      8252564.01      8.252.564,01    8,252,564.01    8252564,01      8252564.01      8.252.564,01    8,252,564.01
+958838659       958.838.659     958,838,659     9588386,59      9588386.59      9.588.386,59    9,588,386.59    9588386,59      9588386.59      9.588.386,59    9,588,386.59
+582362551       582.362.551     582,362,551     5823625,51      5823625.51      5.823.625,51    5,823,625.51    5823625,51      5823625.51      5.823.625,51    5,823,625.51

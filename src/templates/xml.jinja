@@ -1,0 +1,13 @@
+{# Jinja template for XML output #}
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+{% for cell_group in report.cell_groups -%}
+<recordset index="{{ loop.index0 }}">
+{% for line in cell_group.lines -%}
+<record 
+{%- for cell in line %} {{ cell.name }}="{% if cell.value %}{{ cell.value }}{% endif %}"{%- endfor %}
+ />
+{% endfor -%}
+</recordset>
+{% endfor %}
+</report>

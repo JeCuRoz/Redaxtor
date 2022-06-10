@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+<recordset index="0">
+<record field0="Category/Categoría" category="T-Shirts" />
+</recordset>
+<recordset index="1">
+<record field0="Code" field1="Product" field2="Color" field3="Size" field4="Units" field5="Price" field6="Discount" field7="Amount" field8="Net Amount" />
+<record field0="Código" field1="Producto" field2="Color" field3="Talla" field4="Unidades" field5="Precio" field6="Descuento" field7="Importe" field8="Importe Neto" />
+<record code="000001" product="T-Shirt" color="Green" size="XS" units="10" price="20.00" discount="1410.0" amount="=E4*F4" net_amount="=H4*(1-(G4/100))" />
+<record code="000002" product="T-Shirt" color="Green" size="S" units="12" price="20.00" discount="35560.0" amount="=E5*F5" net_amount="=H5*(1-(G5/100))" />
+<record code="000003" product="T-Shirt" color="Green" size="M" units="12" price="20.00" discount="-14568.15" amount="=E6*F6" net_amount="=H6*(1-(G6/100))" />
+<record code="000004" product="T-Shirt" color="Green" size="L" units="14" price="20.00" discount="10.0" amount="=E7*F7" net_amount="=H7*(1-(G7/100))" />
+<record code="000005" product="T-Shirt" color="Green" size="XL" units="11" price="20.00" discount="10.0" amount="=E8*F8" net_amount="=H8*(1-(G8/100))" />
+<record code="000006" product="T-Shirt" color="Green" size="2XL" units="-11" price="20.00" discount="10.0" amount="=E9*F9" net_amount="=H9*(1-(G9/100))" />
+<record code="100001" product="T-Shirt" color="Blue" size="XS" units="10" price="20.50" discount="10.0" amount="=E10*F10" net_amount="=H10*(1-(G10/100))" />
+<record code="100002" product="T-Shirt" color="Blue" size="S" units="12" price="20.50" discount="10.0" amount="=E11*F11" net_amount="=H11*(1-(G11/100))" />
+<record code="100003" product="T-Shirt" color="Blue" size="M" units="12" price="20.50" discount="10.0" amount="=E12*F12" net_amount="=H12*(1-(G12/100))" />
+<record code="100004" product="T-Shirt" color="Blue" size="L" units="14" price="20.50" discount="10.0" amount="=E13*F13" net_amount="=H13*(1-(G13/100))" />
+<record code="100005" product="T-Shirt" color="Blue" size="XL" units="11" price="20.50" discount="10.0" amount="=E14*F14" net_amount="=H14*(1-(G14/100))" />
+<record code="100006" product="T-Shirt" color="Blue" size="2XL" units="-11" price="20.50" discount="10.0" amount="=E15*F15" net_amount="=H15*(1-(G15/100))" />
+<record code="200001" product="T-Shirt" color="Red" size="XS" units="11" price="21.00" discount="10.0" amount="=E16*F16" net_amount="=H16*(1-(G16/100))" />
+<record code="200002" product="T-Shirt" color="Red" size="S" units="13" price="21.00" discount="10.0" amount="=E17*F17" net_amount="=H17*(1-(G17/100))" />
+<record code="200003" product="T-Shirt" color="Red" size="M" units="13" price="21.00" discount="10.0" amount="=E18*F18" net_amount="=H18*(1-(G18/100))" />
+<record code="200004" product="T-Shirt" color="Red" size="L" units="15" price="21.00" discount="10.0" amount="=E19*F19" net_amount="=H19*(1-(G19/100))" />
+<record code="200005" product="T-Shirt" color="Red" size="XL" units="12" price="21.00" discount="10.0" amount="=E20*F20" net_amount="=H20*(1-(G20/100))" />
+<record code="200006" product="T-Shirt" color="Red" size="2XL" units="" price="21.00" discount="10.0" amount="=E21*F21" net_amount="=H21*(1-(G21/100))" />
+<record vacio0="" vacio1="" vacio2="" field3="Total" field4="=SUM(E4:E21)" field5="" field6="" field7="=SUM(H4:H21)" field8="=SUM(I4:I21)" />
+<record field0="" field1="" field2="" field3="Total2" field4="=AVERAGE(E4:E21)" field5="" field6="" field7="=MIN(H4:H21)" field8="=MAX(I4:I21)" />
+</recordset>
+<recordset index="2">
+<record field0="Category/Categoría" category="Trousers" />
+</recordset>
+<recordset index="3">
+<record field0="Code" field1="Product" field2="Color" field3="Size" field4="Units" field5="Price" field6="Discount" field7="Amount" field8="Net Amount" />
+<record field0="Código" field1="Producto" field2="Color" field3="Talla" field4="Unidades" field5="Precio" field6="Descuento" field7="Importe" field8="Importe Neto" />
+<record code="300001" product="Trouser" color="Green" size="XS" units="-5" price="30.00" discount="15.0" amount="=E28*F28" net_amount="=H28*(1-(G28/100))" />
+<record code="300002" product="Trouser" color="Green" size="S" units="12" price="30.00" discount="15.0" amount="=E29*F29" net_amount="=H29*(1-(G29/100))" />
+<record code="300003" product="Trouser" color="Green" size="M" units="12" price="30.00" discount="15.0" amount="=E30*F30" net_amount="=H30*(1-(G30/100))" />
+<record code="300004" product="Trouser" color="Green" size="L" units="14" price="30.00" discount="15.0" amount="=E31*F31" net_amount="=H31*(1-(G31/100))" />
+<record code="300005" product="Trouser" color="Green" size="XL" units="11" price="30.00" discount="15.0" amount="=E32*F32" net_amount="=H32*(1-(G32/100))" />
+<record code="300006" product="Trouser" color="Green" size="2X" units="11" price="30.00" discount="15.0" amount="=E33*F33" net_amount="=H33*(1-(G33/100))" />
+<record code="400001" product="Trouser" color="Blue" size="XS" units="10" price="30.50" discount="15.0" amount="=E34*F34" net_amount="=H34*(1-(G34/100))" />
+<record code="400002" product="Trouser" color="Blue" size="S" units="12" price="30.50" discount="15.0" amount="=E35*F35" net_amount="=H35*(1-(G35/100))" />
+<record code="400003" product="Trouser" color="Blue" size="M" units="12" price="30.50" discount="15.0" amount="=E36*F36" net_amount="=H36*(1-(G36/100))" />
+<record code="400004" product="Trouser" color="Blue" size="L" units="14" price="30.50" discount="15.0" amount="=E37*F37" net_amount="=H37*(1-(G37/100))" />
+<record code="400005" product="Trouser" color="Blue" size="XL" units="-1" price="30.50" discount="15.0" amount="=E38*F38" net_amount="=H38*(1-(G38/100))" />
+<record code="400006" product="Trouser" color="Blue" size="2XL" units="11" price="30.50" discount="15.0" amount="=E39*F39" net_amount="=H39*(1-(G39/100))" />
+<record code="500001" product="Trouser" color="Red" size="XS" units="11" price="31.00" discount="15.0" amount="=E40*F40" net_amount="=H40*(1-(G40/100))" />
+<record code="500002" product="Trouser" color="Red" size="S" units="13" price="31.00" discount="15.0" amount="=E41*F41" net_amount="=H41*(1-(G41/100))" />
+<record code="500003" product="Trouser" color="Red" size="M" units="13" price="31.00" discount="15.0" amount="=E42*F42" net_amount="=H42*(1-(G42/100))" />
+<record code="500004" product="Trouser" color="Red" size="L" units="15" price="31.00" discount="15.0" amount="=E43*F43" net_amount="=H43*(1-(G43/100))" />
+<record code="500005" product="Trouser" color="Red" size="XL" units="12" price="31.00" discount="15.0" amount="=E44*F44" net_amount="=H44*(1-(G44/100))" />
+<record code="500006" product="Trouser" color="Red" size="2XL" units="" price="31.00" discount="15.0" amount="=E45*F45" net_amount="=H45*(1-(G45/100))" />
+<record vacio0="" vacio1="" vacio2="" field3="Total" field4="=SUM(E28:E45)" field5="" field6="" field7="=SUM(H28:H45)" field8="=SUM(I28:I45)" />
+<record field0="" field1="" field2="" field3="Total2" field4="=AVERAGE(E28:E45)" field5="" field6="" field7="=MIN(H28:H45)" field8="=MAX(I28:I45)" />
+</recordset>
+<recordset index="4">
+<record field0="Category/Categoría" category="Dresses" />
+</recordset>
+<recordset index="5">
+<record field0="Code" field1="Product" field2="Color" field3="Size" field4="Units" field5="Price" field6="Discount" field7="Amount" field8="Net Amount" />
+<record field0="Código" field1="Producto" field2="Color" field3="Talla" field4="Unidades" field5="Precio" field6="Descuento" field7="Importe" field8="Importe Neto" />
+<record code="600001" product="Dress" color="Green" size="XS" units="" price="40.00" discount="20.5" amount="=E52*F52" net_amount="=H52*(1-(G52/100))" />
+<record code="600002" product="Dress" color="Green" size="S" units="12" price="40.00" discount="20.5" amount="=E53*F53" net_amount="=H53*(1-(G53/100))" />
+<record code="600003" product="Dress" color="Green" size="M" units="12" price="40.00" discount="20.5" amount="=E54*F54" net_amount="=H54*(1-(G54/100))" />
+<record code="600004" product="Dress" color="Green" size="L" units="14" price="40.00" discount="20.5" amount="=E55*F55" net_amount="=H55*(1-(G55/100))" />
+<record code="600005" product="Dress" color="Green" size="XL" units="11" price="40.00" discount="20.5" amount="=E56*F56" net_amount="=H56*(1-(G56/100))" />
+<record code="600006" product="Dress" color="Green" size="2XL" units="11" price="40.00" discount="20.5" amount="=E57*F57" net_amount="=H57*(1-(G57/100))" />
+<record code="700001" product="Dress" color="Blue" size="XS" units="10" price="40.50" discount="20.5" amount="=E58*F58" net_amount="=H58*(1-(G58/100))" />
+<record code="700002" product="Dress" color="Blue" size="S" units="-3" price="40.50" discount="20.5" amount="=E59*F59" net_amount="=H59*(1-(G59/100))" />
+<record code="700003" product="Dress" color="Blue" size="M" units="12" price="40.50" discount="20.5" amount="=E60*F60" net_amount="=H60*(1-(G60/100))" />
+<record code="700004" product="Dress" color="Blue" size="L" units="14" price="40.50" discount="20.5" amount="=E61*F61" net_amount="=H61*(1-(G61/100))" />
+<record code="700005" product="Dress" color="Blue" size="XL" units="11" price="40.50" discount="20.5" amount="=E62*F62" net_amount="=H62*(1-(G62/100))" />
+<record code="700006" product="Dress" color="Blue" size="2XL" units="11" price="40.50" discount="20.5" amount="=E63*F63" net_amount="=H63*(1-(G63/100))" />
+<record code="800001" product="Dress" color="Red" size="XS" units="-1" price="41.00" discount="20.5" amount="=E64*F64" net_amount="=H64*(1-(G64/100))" />
+<record code="800002" product="Dress" color="Red" size="S" units="13" price="41.00" discount="20.5" amount="=E65*F65" net_amount="=H65*(1-(G65/100))" />
+<record code="800003" product="Dress" color="Red" size="M" units="13" price="41.00" discount="20.5" amount="=E66*F66" net_amount="=H66*(1-(G66/100))" />
+<record code="800004" product="Dress" color="Red" size="L" units="15" price="41.00" discount="20.5" amount="=E67*F67" net_amount="=H67*(1-(G67/100))" />
+<record code="800005" product="Dress" color="Red" size="XL" units="12" price="41.00" discount="20.5" amount="=E68*F68" net_amount="=H68*(1-(G68/100))" />
+<record code="800006" product="Dress" color="Red" size="2XL" units="" price="41.00" discount="20.5" amount="=E69*F69" net_amount="=H69*(1-(G69/100))" />
+<record vacio0="" vacio1="" vacio2="" field3="Total" field4="=SUM(E52:E69)" field5="" field6="" field7="=SUM(H52:H69)" field8="=SUM(I52:I69)" />
+<record field0="" field1="" field2="" field3="Total2" field4="=AVERAGE(E52:E69)" field5="" field6="" field7="=MIN(H52:H69)" field8="=MAX(I52:I69)" />
+</recordset>
+</report>

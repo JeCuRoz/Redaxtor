@@ -1,0 +1,71 @@
+                Product Inventory
+=======================================================================
+Category: T-Shirts
+-----------------------------------------------------------------------
+    Id     Product    Color  Size         Units      Price    Discount
+-----------------------------------------------------------------------
+    000001 T-Shirt    Green    XS            10      20.00    1.410,00        
+    000002 T-Shirt    Green     S            12      20.00   35.560,00     
+    000003 T-Shirt    Green     M            12      20.00  -14.568,15 
+    000004 T-Shirt    Green     L            14      20.00       10,00 
+    000005 T-Shirt    Green    XL            11      20.00       10,00 
+    000006 T-Shirt    Green   2XL           -11      20.00       10,00 
+    100001 T-Shirt    Blue     XS            10      20.50       10,00        
+    100002 T-Shirt    Blue      S            12      20.50       10,00     
+    100003 T-Shirt    Blue      M            12      20.50       10,00 
+    100004 T-Shirt    Blue      L            14      20.50       10,00 
+    100005 T-Shirt    Blue     XL            11      20.50       10,00 
+    100006 T-Shirt    Blue    2XL           -11      20.50       10,00 
+    200001 T-Shirt    Red      XS            11      21.00       10,00        
+    200002 T-Shirt    Red       S            13      21.00       10,00     
+    200003 T-Shirt    Red       M            13      21.00       10,00 
+    200004 T-Shirt    Red       L            15      21.00       10,00 
+    200005 T-Shirt    Red      XL            12      21.00       10,00 
+    200006 T-Shirt    Red     2XL             0      21.00       10,00 
+=======================================================================
+Category: Trousers
+-----------------------------------------------------------------------
+    Id     Product    Color  Size         Units      Price    Discount
+-----------------------------------------------------------------------
+    300001 Trouser    Green    XS            -5      30.00       15,00        
+    300002 Trouser    Green     S            12      30.00       15,00     
+    300003 Trouser    Green     M            12      30.00       15,00 
+    300004 Trouser    Green     L            14      30.00       15,00 
+    300005 Trouser    Green    XL            11      30.00       15,00 
+    300006 Trouser    Green    2XL           11      30.00       15,00 
+    400001 Trouser    Blue     XS            10      30.50       15,00        
+    400002 Trouser    Blue      S            12      30.50       15,00     
+    400003 Trouser    Blue      M            12      30.50       15,00 
+    400004 Trouser    Blue      L            14      30.50       15,00 
+    400005 Trouser    Blue     XL            -1      30.50       15,00 
+    400006 Trouser    Blue    2XL            11      30.50       15,00 
+    500001 Trouser    Red      XS            11      31.00       15,00        
+    500002 Trouser    Red       S            13      31.00       15,00     
+    500003 Trouser    Red       M            13      31.00       15,00 
+    500004 Trouser    Red       L            15      31.00       15,00 
+    500005 Trouser    Red      XL            12      31.00       15,00 
+    500006 Trouser    Red     2XL             0      31.00       15,00 
+=======================================================================
+Category: Dresses
+-----------------------------------------------------------------------
+    Id     Product    Color  Size         Units      Price    Discount
+-----------------------------------------------------------------------
+    600001 Dress      Green    XS             0      40.00       20,50  
+    600002 Dress      Green     S            12      40.00       20,50  
+    600003 Dress      Green     M            12      40.00       20,50 
+    600004 Dress      Green     L            14      40.00       20,50 
+    600005 Dress      Green    XL            11      40.00       20,50 
+    600006 Dress      Green   2XL            11      40.00       20,50 
+    700001 Dress      Blue     XS            10      40.50       20,50  
+    700002 Dress      Blue      S            -3      40.50       20,50  
+    700003 Dress      Blue      M            12      40.50       20,50 
+    700004 Dress      Blue      L            14      40.50       20,50 
+    700005 Dress      Blue     XL            11      40.50       20,50 
+    700006 Dress      Blue    2XL            11      40.50       20,50 
+    800001 Dress      Red      XS            -1      41.00       20,50  
+    800002 Dress      Red       S            13      41.00       20,50  
+    800003 Dress      Red       M            13      41.00       20,50 
+    800004 Dress      Red       L            15      41.00       20,50 
+    800005 Dress      Red      XL            12      41.00       20,50 
+    800006 Dress      Red     2XL             0      41.00       20,50 
+=======================================================================

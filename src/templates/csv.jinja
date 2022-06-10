@@ -1,0 +1,10 @@
+{# Jinja template for CSV output #}
+{% for cell_group in report.cell_groups %}
+    {% for line in cell_group.lines %}
+        {% for field in line %}
+            {% if field.value %}
+                {{- field.value -}}
+            {% endif %}{% if not loop.last %};{% endif %}
+        {% endfor +%}
+    {% endfor %}
+{% endfor %}
