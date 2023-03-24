@@ -344,7 +344,7 @@ class Row:
                f'cells=(\n{cells}\n)\n)'
 
     def __iter__(self):
-        # itermaos sobre el conjunto de celdas
+        # iteramos sobre el conjunto de celdas
         for cell in self.cells:
             yield cell
 
@@ -507,7 +507,7 @@ class Report:
         # g_index = group index
 
         new_row = fields_group.new_row if hasattr(fields_group, 'new_row') else False
-        keep_in_row = fields_group.new_row if hasattr(fields_group, 'keep_in_row') else False
+        keep_in_row = fields_group.keep_in_row if hasattr(fields_group, 'keep_in_row') else False
 
         if self._same_row and not new_row:
             # mantenerse en la línea actual
